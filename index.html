@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Make sure neinei-logo.jpeg is inside your public folder -->
+    <link rel="icon" type="image/jpeg" href="/neinei-logo.jpeg" />
 
     <!-- Mobile / Responsive -->
     <meta
@@ -13,16 +14,18 @@
     />
 
     <!-- Primary SEO -->
-    <title>NEI-NEI PTY LTD | Industrial Supplies & Equipment</title>
+    <title>
+      NEI-NEI PTY LTD | Industrial Supplies, PPE & Equipment South Africa
+    </title>
 
     <meta
       name="description"
-      content="NEI-NEI PTY LTD provides industrial supplies, PPE, equipment and essential products for businesses and industries in South Africa."
+      content="NEI-NEI PTY LTD is a South African industrial supply company providing PPE and safety solutions, industrial engineering components, cleaning and hygiene supplies, corporate branding and promotional products."
     />
 
     <meta
       name="keywords"
-      content="NEI-NEI PTY LTD, industrial supplies, industrial equipment, PPE, safety equipment, industrial products, industrial suppliers, South Africa"
+      content="NEI-NEI PTY LTD, NEI-NEI Industrial Supplies, industrial supplies South Africa, industrial suppliers South Africa, PPE suppliers, safety equipment, PPE South Africa, industrial equipment, engineering components, bearings, V-belts, industrial lubricants, cleaning supplies, corporate branding, promotional products, mining supplies, construction supplies, manufacturing supplies"
     />
 
     <meta name="author" content="NEI-NEI PTY LTD" />
@@ -35,10 +38,10 @@
     <!-- Canonical URL -->
     <link
       rel="canonical"
-      href="https://nei-nei-services-pty-ltd-478826.netlify.app/"
+      href="https://neineiindustrial.co.za/"
     />
 
-    <!-- Open Graph - Facebook / LinkedIn -->
+    <!-- Open Graph / Facebook / LinkedIn -->
     <meta
       property="og:type"
       content="website"
@@ -46,17 +49,17 @@
 
     <meta
       property="og:title"
-      content="NEI-NEI PTY LTD | Industrial Supplies & Equipment"
+      content="NEI-NEI PTY LTD | Industrial Supplies & Solutions"
     />
 
     <meta
       property="og:description"
-      content="Quality industrial supplies, PPE, equipment and essential products for businesses and industries in South Africa."
+      content="Quality industrial supplies, PPE and safety solutions, engineering components, cleaning supplies and corporate branding solutions across South Africa."
     />
 
     <meta
       property="og:url"
-      content="https://nei-nei-services-pty-ltd-478826.netlify.app/"
+      content="https://neineiindustrial.co.za/"
     />
 
     <meta
@@ -64,21 +67,71 @@
       content="NEI-NEI PTY LTD"
     />
 
+    <meta
+      property="og:locale"
+      content="en_ZA"
+    />
+
+    <!--
+      Optional social sharing image.
+      Add a suitable image to /public and uncomment this section.
+
+      <meta
+        property="og:image"
+        content="https://neineiindustrial.co.za/neinei-social-preview.jpg"
+      />
+
+      <meta
+        property="og:image:alt"
+        content="NEI-NEI PTY LTD Industrial Supplies"
+      />
+    -->
+
+    <!-- Twitter / X -->
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+
+    <meta
+      name="twitter:title"
+      content="NEI-NEI PTY LTD | Industrial Supplies & Solutions"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Industrial supplies, PPE, safety solutions, engineering components, cleaning supplies and corporate branding solutions in South Africa."
+    />
+
+    <!--
+      Optional Twitter/X sharing image.
+
+      <meta
+        name="twitter:image"
+        content="https://neineiindustrial.co.za/neinei-social-preview.jpg"
+      />
+    -->
+
     <!-- Geographic SEO -->
     <meta
       name="geo.region"
-      content="ZA"
+      content="ZA-GP"
+    />
+
+    <meta
+      name="geo.placename"
+      content="Gauteng, South Africa"
     />
 
     <meta
       name="geo.country"
-      content="South Africa"
+      content="ZA"
     />
 
     <!-- Theme -->
     <meta
       name="theme-color"
-      content="#0f172a"
+      content="#0B1F3A"
     />
 
     <!-- Language -->
@@ -86,11 +139,52 @@
       name="language"
       content="English"
     />
+
+    <!-- Mobile browser -->
+    <meta
+      name="apple-mobile-web-app-capable"
+      content="yes"
+    />
+
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="default"
+    />
+
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NEI-NEI PTY LTD",
+        "url": "https://neineiindustrial.co.za/",
+        "logo": "https://neineiindustrial.co.za/neinei-logo.jpeg",
+        "description": "South African industrial supply and solutions company specialising in workplace safety products, industrial components, engineering consumables, corporate branding solutions and support services.",
+        "email": "delina@neinei.co.za",
+        "telephone": "+27 76 568 3130",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "23431 Umbhola Street, Palm Ridge Ext 22",
+          "addressLocality": "Katlehong",
+          "addressRegion": "Gauteng",
+          "postalCode": "1401",
+          "addressCountry": "ZA"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "South Africa"
+        },
+        "sameAs": []
+      }
+    </script>
   </head>
 
   <body>
     <div id="root"></div>
 
-    <script type="module" src="/src/main.jsx"></script>
+    <script
+      type="module"
+      src="/src/main.jsx"
+    ></script>
   </body>
 </html>
