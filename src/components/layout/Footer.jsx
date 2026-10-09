@@ -177,7 +177,7 @@ function Footer() {
 
               {/* Phone */}
               <a
-                href="tel:0765683130"
+                href="tel: 083 720 8184"
                 className="flex items-start gap-3 transition-colors hover:text-white"
               >
                 <Phone
@@ -185,7 +185,7 @@ function Footer() {
                   className="mt-0.5 shrink-0 text-[#C9A227]"
                 />
 
-                <span>076 568 3130</span>
+                <span> 083 720 8184 </span>
               </a>
 
               {/* Email */}
@@ -201,7 +201,7 @@ function Footer() {
                 <span>info@neinei.co.za</span>
               </a>
 
-              {/* Address */}
+              {/* Address
               <div className="flex items-start gap-3">
                 <MapPin
                   size={18}
@@ -215,7 +215,7 @@ function Footer() {
                   <br />
                   1401, South Africa
                 </span>
-              </div>
+              </div> */}
 
             </div>
           </div>
@@ -255,7 +255,7 @@ function Footer() {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/27765683130"
+              href="https://wa.me/ 27837208184"
               target="_blank"
               rel="noreferrer"
               aria-label="WhatsApp"

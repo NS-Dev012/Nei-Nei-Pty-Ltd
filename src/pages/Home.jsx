@@ -6,23 +6,124 @@ import IndustriesPreview from "../components/home/IndustriesPreview";
 import SupplyAreas from "../components/home/SupplyAreas";
 import CTA from "../components/home/CTA";
 
+import {
+  ShieldCheck,
+  BadgeCheck,
+  Truck,
+  Handshake,
+} from "lucide-react";
+
 import { FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
     <>
+      {/* =====================================================
+          HERO
+      ====================================================== */}
       <Hero />
 
+      {/* =====================================================
+          TRUST & COMPANY HIGHLIGHTS
+      ====================================================== */}
+      <section className="border-b border-slate-200 bg-white">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 md:grid-cols-4">
+          
+          {/* B-BBEE */}
+          <div className="flex items-center gap-3 border-b border-r border-slate-200 px-5 py-6 md:border-b-0">
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#0B1F3A]">
+              <BadgeCheck className="h-5 w-5 text-[#C9A227]" />
+            </div>
+
+            <div>
+              <p className="text-sm font-bold text-[#0B1F3A]">
+                B-BBEE Level 1
+              </p>
+              <p className="text-xs text-slate-500">
+                100% Black Owned
+              </p>
+            </div>
+          </div>
+
+          {/* QUALITY */}
+          <div className="flex items-center gap-3 border-b border-slate-200 px-5 py-6 md:border-b-0 md:border-r">
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#0B1F3A]">
+              <ShieldCheck className="h-5 w-5 text-[#C9A227]" />
+            </div>
+
+            <div>
+              <p className="text-sm font-bold text-[#0B1F3A]">
+                Quality & Safety
+              </p>
+              <p className="text-xs text-slate-500">
+                Workplace Protection
+              </p>
+            </div>
+          </div>
+
+          {/* DELIVERY */}
+          <div className="flex items-center gap-3 border-r border-slate-200 px-5 py-6">
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#0B1F3A]">
+              <Truck className="h-5 w-5 text-[#C9A227]" />
+            </div>
+
+            <div>
+              <p className="text-sm font-bold text-[#0B1F3A]">
+                Reliable Supply
+              </p>
+              <p className="text-xs text-slate-500">
+                Dependable Delivery
+              </p>
+            </div>
+          </div>
+
+          {/* PARTNERSHIP */}
+          <div className="flex items-center gap-3 px-5 py-6">
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#0B1F3A]">
+              <Handshake className="h-5 w-5 text-[#C9A227]" />
+            </div>
+
+            <div>
+              <p className="text-sm font-bold text-[#0B1F3A]">
+                Trusted Partner
+              </p>
+              <p className="text-xs text-slate-500">
+                Procurement Support
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* =====================================================
+          ABOUT PREVIEW
+      ====================================================== */}
       <AboutPreview />
 
+      {/* =====================================================
+          PRODUCT CATEGORIES
+      ====================================================== */}
       <ProductCategories />
 
+      {/* =====================================================
+          WHY CHOOSE US
+      ====================================================== */}
       <WhyChooseUs />
 
+      {/* =====================================================
+          INDUSTRIES WE SERVE
+      ====================================================== */}
       <IndustriesPreview />
 
+      {/* =====================================================
+          SUPPLY AREAS
+      ====================================================== */}
       <SupplyAreas />
 
+      {/* =====================================================
+          FINAL CALL TO ACTION
+      ====================================================== */}
       <CTA />
 
       {/* =====================================================

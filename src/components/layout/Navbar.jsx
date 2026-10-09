@@ -14,9 +14,9 @@ const productLinks = [
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about" },
-  { name: "Industries", path: "/industries" },
-  { name: "Projects", path: "/projects" },
-  { name: "Resources", path: "/resources" },
+  // { name: "Industries", path: "/industries" },
+  // { name: "Projects", path: "/projects" },
+  // { name: "Resources", path: "/resources" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -157,12 +157,12 @@ function Navbar() {
           {/* =================================================
               REQUEST QUOTE
           ================================================= */}
-          <Link
+          {/* <Link
             to="/request-a-quote"
             className="ml-2 rounded-md bg-[#C9A227] px-5 py-3 text-sm font-bold text-[#0B1F3A] shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#D8B83F] hover:shadow-md"
           >
             Request a Quote
-          </Link>
+          </Link> */}
         </div>
 
         {/* =====================================================

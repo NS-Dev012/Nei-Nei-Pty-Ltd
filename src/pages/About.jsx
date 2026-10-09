@@ -464,17 +464,17 @@ function About() {
             <div className="rounded-xl bg-white p-6 shadow-sm">
               <Landmark className="text-[#C9A227]" size={28} />
 
-              <p className="mt-5 text-xs font-bold uppercase tracking-wider text-gray-500">
+              {/* <p className="mt-5 text-xs font-bold uppercase tracking-wider text-gray-500">
                 Location
-              </p>
+              </p> */}
 
               <h3 className="mt-1 font-bold text-[#0B1F3A]">
                 Gauteng, South Africa
               </h3>
 
-              <p className="mt-1 text-sm text-gray-500">
+              {/* <p className="mt-1 text-sm text-gray-500">
                 Katlehong
-              </p>
+              </p> */}
             </div>
 
           </div>
@@ -870,7 +870,7 @@ function About() {
                 </p>
 
                 <h2 className="mt-2 text-3xl font-bold text-white">
-                  Delina Sports
+                  Delina
                 </h2>
 
                 <p className="mt-1 text-sm font-medium text-gray-400">
@@ -1185,9 +1185,9 @@ function About() {
           <div className="mx-auto mt-10 h-px max-w-xl bg-white/10" />
 
           <div className="mt-7 flex flex-col items-center justify-center gap-2 text-sm text-gray-400 sm:flex-row sm:gap-6">
-            <span>Katlehong, Gauteng</span>
+            <span> Gauteng</span>
             <span className="hidden text-[#C9A227] sm:block">•</span>
-            <span>076 568 3130</span>
+            <span>083 720 8184</span>
             <span className="hidden text-[#C9A227] sm:block">•</span>
             <span>delina@neinei.co.za</span>
           </div>

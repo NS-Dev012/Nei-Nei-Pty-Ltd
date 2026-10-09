@@ -138,7 +138,7 @@ function Contact() {
                     </p>
 
                     <p className="mt-1 font-semibold text-[#0B1F3A]">
-                      076 568 3130
+                      083 720 8184
                     </p>
 
                     <p className="mt-1 text-sm text-gray-500">
@@ -172,17 +172,17 @@ function Contact() {
                 </a>
 
                 {/* Address */}
-                <div className="flex items-start gap-4 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+                {/* <div className="flex items-start gap-4 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#0B1F3A] text-[#C9A227]">
                     <MapPin size={22} />
                   </div>
 
-                  <div>
-                    <p className="text-sm font-semibold text-gray-500">
+                  <div> */}
+                    {/* <p className="text-sm font-semibold text-gray-500">
                       Business Address
-                    </p>
+                    </p> */}
 
-                    <p className="mt-1 font-semibold leading-6 text-[#0B1F3A]">
+                    {/* <p className="mt-1 font-semibold leading-6 text-[#0B1F3A]">
                       23431 Umbhola Street
                       <br />
                       Palm Ridge Ext 22
@@ -190,9 +190,9 @@ function Contact() {
                       Katlehong, Gauteng
                       <br />
                       1401, South Africa
-                    </p>
-                  </div>
-                </div>
+                    </p> */}
+                  {/* </div>
+                </div> */}
 
                 {/* Hours */}
                 <div className="flex items-start gap-4 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -219,7 +219,7 @@ function Contact() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/27765683130"
+                href="https://wa.me/27837208184"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 flex items-center justify-center gap-3 rounded-lg bg-[#25D366] px-6 py-4 font-bold text-white shadow-md transition-all hover:-translate-y-1 hover:bg-[#20bd5a] hover:shadow-lg"
