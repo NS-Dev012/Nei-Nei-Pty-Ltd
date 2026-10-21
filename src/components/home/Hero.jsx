@@ -122,7 +122,7 @@ function Hero() {
             </Link>
 
             {/* Secondary */}
-            <Link
+            {/* <Link
               to="/request-a-quote"
               className="group inline-flex items-center justify-center gap-3 rounded-md border border-white/40 bg-white/5 px-7 py-4 text-sm font-bold text-white backdrop-blur-sm transition-all duration-300 hover:border-[#C9A227] hover:bg-white hover:text-[#07182D]"
             >
@@ -132,7 +132,7 @@ function Hero() {
                 size={17}
                 className="transition-transform duration-300 group-hover:translate-x-1"
               />
-            </Link>
+            </Link> */}
 
           </motion.div>
 

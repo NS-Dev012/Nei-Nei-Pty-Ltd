@@ -75,23 +75,23 @@ function Footer() {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link
                   to="/industries"
                   className="transition-colors hover:text-white"
                 >
                   Industries
                 </Link>
-              </li>
+              </li> */}
 
-              <li>
+              {/* <li>
                 <Link
                   to="/projects"
                   className="transition-colors hover:text-white"
                 >
                   Projects
                 </Link>
-              </li>
+              </li> */}
 
               <li>
                 <Link

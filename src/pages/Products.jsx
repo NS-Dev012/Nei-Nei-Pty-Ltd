@@ -1,3 +1,14 @@
+import ppeImage from "../assets/images/products/ppe-safety.jpg";
+import engineeringImage from "../assets/images/products/engineering-components.jpg";
+import hygieneImage from "../assets/images/products/cleaning-hygiene.jpg";
+import brandingImage from "../assets/images/products/corporate-branding.jpg";
+import workplaceImage from "../assets/images/products/workplace-supplies.jpg";
+import deliveryImage from "../assets/images/products/supply-delivery.jpg";
+import hygieneFeatureImage from "../assets/images/products/hygiene-feature.jpg";
+import workImage from "../assets/images/work.jpeg";
+import officeImage from "../assets/images/office.jpeg";
+import mineImage from "../assets/images/mine.jpeg";
+
 import { Link } from "react-router-dom";
 import {
   ShieldCheck,
@@ -11,6 +22,8 @@ import {
   PackageCheck,
 } from "lucide-react";
 
+
+
 const products = [
   {
     id: 1,
@@ -18,7 +31,7 @@ const products = [
     category: "PPE & SAFETY",
     description:
       "Workplace protection solutions designed to support safer working environments across industrial and commercial operations.",
-    image: "/images/products/ppe-safety.jpg",
+    image: ppeImage,
     icon: HardHat,
     items: [
       "Safety boots",
@@ -38,7 +51,7 @@ const products = [
     category: "ENGINEERING",
     description:
       "Industrial components and maintenance products supporting mechanical, engineering and operational requirements.",
-    image: "/images/products/engineering-components.jpg",
+    image: engineeringImage,
     icon: Wrench,
     items: [
       "Bearings",
@@ -57,7 +70,7 @@ const products = [
     category: "CLEANING & HYGIENE",
     description:
       "Professional cleaning and hygiene solutions for offices, facilities, industrial environments and high-traffic workplaces.",
-    image: "/images/products/cleaning-hygiene.jpg",
+    image: hygieneImage,
     icon: Sparkles,
     items: [
       "Foam soap dispensers",
@@ -77,7 +90,7 @@ const products = [
     category: "BRANDING",
     description:
       "Professional branded products that help organisations present a consistent and professional identity.",
-    image: "/images/products/corporate-branding.jpg",
+    image: brandingImage,
     icon: BriefcaseBusiness,
     items: [
       "Branded workwear",
@@ -96,7 +109,7 @@ const products = [
     category: "WORKPLACE SUPPLIES",
     description:
       "Essential products supporting day-to-day workplace, facility and operational requirements.",
-    image: "/images/products/workplace-supplies.jpg",
+    image: workplaceImage,
     icon: PackageCheck,
     items: [
       "Workplace consumables",
@@ -114,7 +127,7 @@ const products = [
     category: "PROCUREMENT SUPPORT",
     description:
       "Procurement and supply support helping organisations source products according to their operational requirements.",
-    image: "/images/products/supply-delivery.jpg",
+    image: deliveryImage,
     icon: Truck,
     items: [
       "Product sourcing",
@@ -162,13 +175,13 @@ function Products() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link
+              {/* <Link
                 to="/contact"
                 className="inline-flex items-center gap-2 rounded-lg bg-[#C9A227] px-6 py-3 font-bold text-[#0B1F3A] transition hover:bg-[#b58f1e]"
               >
                 Request a Quote
                 <ArrowRight size={18} />
-              </Link>
+              </Link> */}
 
               <Link
                 to="/about"
@@ -266,7 +279,7 @@ function Products() {
                       ))}
                     </ul>
 
-                    <Link
+                    {/* <Link
                       to="/contact"
                       className="mt-6 inline-flex items-center gap-2 font-bold text-[#0B1F3A] transition group-hover:text-[#C9A227]"
                     >
@@ -275,7 +288,7 @@ function Products() {
                         size={17}
                         className="transition-transform group-hover:translate-x-1"
                       />
-                    </Link>
+                    </Link> */}
                   </div>
                 </article>
               );
@@ -341,9 +354,9 @@ function Products() {
 
             <div className="relative overflow-hidden rounded-2xl bg-[#0B1F3A] p-3 shadow-2xl">
               <img
-                src="/images/products/hygiene-feature.jpg"
+                src={officeImage}
                 alt="NEI-NEI hygiene supply solutions"
-                className="h-[420px] w-full rounded-xl object-cover"
+                className="h-[420px] w-full rounded-xl object-cover object-center"
               />
 
               <div className="absolute bottom-8 left-8 right-8 rounded-xl bg-[#0B1F3A]/90 p-5 backdrop-blur">
@@ -426,13 +439,13 @@ function Products() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
 
-            <Link
+            {/* <Link
               to="/contact"
               className="inline-flex items-center gap-2 rounded-lg bg-[#0B1F3A] px-7 py-3.5 font-bold text-white transition hover:bg-[#162f52]"
             >
               Request a Quote
               <ArrowRight size={18} />
-            </Link>
+            </Link> */}
 
             <a
               href="https://wa.me/27765683130"

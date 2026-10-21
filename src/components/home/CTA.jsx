@@ -29,7 +29,7 @@ function CTA() {
 
         <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
 
-          <Link
+          {/* <Link
             to="/request-a-quote"
             className="group inline-flex items-center justify-center gap-3 rounded-md bg-[#C9A227] px-7 py-4 text-sm font-bold text-[#0B1F3A] transition-all hover:-translate-y-1 hover:bg-[#d7b438]"
           >
@@ -39,16 +39,16 @@ function CTA() {
               size={18}
               className="transition-transform group-hover:translate-x-1"
             />
-          </Link>
+          </Link> */}
 
-          <a
-            href="tel:0765683130"
+          {/* <a
+            href="tel:0837208184"
             className="inline-flex items-center justify-center gap-3 rounded-md border border-white/30 px-7 py-4 text-sm font-bold text-white transition-all hover:border-[#C9A227] hover:bg-white hover:text-[#0B1F3A]"
           >
             <Phone size={18} />
 
-            076 568 3130
-          </a>
+            083 720 8184
+          </a> */}
 
         </div>
 
